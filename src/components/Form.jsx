@@ -9,21 +9,21 @@ const Form = () => {
           <label htmlFor="html">
             What is your pledge for the country? *
           </label>
-          <textarea placeholder='For Example :- When i become a doctor , i will provide free medical care to those , who need it , the most so that our country can be the healthiest in the world.' name="name" id="textarea"></textarea>
+          <textarea placeholder='For Example :- When i become a doctor , i will provide free medical care to those , who need it , the most so that our country can be the healthiest in the world.' name="description" id="textarea"></textarea>
           <p>Character remaining : 100</p>
         </div>
         <div>
           <label htmlFor="html">
             Contact information *
           </label>
-          <input type="number" id='phone' placeholder='Phone Number' />
+          <input type="text" id='mobile' placeholder='Phone Number' />
           <p>Required to contact you in case you win</p>
         </div>
         <div>
-          <input type="radio" />
-          <p>I agree to the <a href="">terms and conditions</a></p>
+          <input type="checkbox" id='agree_terms' />
+          <p>I agree to the terms and conditions</p>
         </div>
-        <button className='btn' id='btn' type='submit'>Submit Your Pledge</button>
+        <button className='btn' id='submit_button' type='submit'>Submit Your Pledge</button>
       </form>
     </div>
   );
