@@ -23,7 +23,7 @@ const Form = () => {
           <input type="radio" />
           <p>I agree to the <a href="">terms and conditions</a></p>
         </div>
-        <button className='btn' type='submit'>Submit Your Pledge</button>
+        <button className='btn' id='btn' type='submit'>Submit Your Pledge</button>
       </form>
     </div>
   );
