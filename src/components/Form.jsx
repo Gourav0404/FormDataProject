@@ -16,7 +16,7 @@ const Form = () => {
           <label htmlFor="html">
             Contact information *
           </label>
-          <input type="number" placeholder='Phone Number' />
+          <input type="number" id='phone' placeholder='Phone Number' />
           <p>Required to contact you in case you win</p>
         </div>
         <div>
