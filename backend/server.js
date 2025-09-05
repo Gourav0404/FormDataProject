@@ -23,6 +23,12 @@ const getClientIp = (req) => {
   );
 };
 
+
+app.get("/", (req, res) => {
+  res.send("Server is running");
+});
+
+
 app.post("/submit", async (req, res) => {
   try {
     const { description, phone } = req.body;
