@@ -17,12 +17,12 @@ const Form = () => {
     }
 
     try {
-      const res = await axios.post('https://<your-render-backend-url>/api/form', {
+      const res = await axios.post('https://xyz-lhp7.onrender.com/submit', {
         description,
         phone
       });
 
-      setMessage(res.data.message || '✅ Your pledge has been submitted!');
+      setMessage(res.data.message || ' Your pledge has been submitted!');
       setDescription('');
       setPhone('');
       setAgree(false);
