@@ -17,7 +17,7 @@ const Form = () => {
     }
 
     try {
-      const res = await axios.post('https://xyz-lhp7.onrender.com/submit', {
+      const res = await axios.post('https://gourav-backend.onrender.com/submit', {
         description,
         phone
       });
